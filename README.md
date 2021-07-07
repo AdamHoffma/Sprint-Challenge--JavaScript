@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.map creates a brand new arrray while .foreach does not
+
 2. What is the difference between a function and a method?
+
+A method is a property of an object
 
 3. What is closure?
 
+Closure is what variables a function does and does not have access too.
+
 4. Describe the four rules of the 'this' keyword.
 
+The global scope calls on the program in your window\browser
+Implicit binds "this" to the object before the dot
+New binding binds "this" to a new object being created
+Explicit binding uses .call or .apply to explicitly bind "this" to a different object
+
 5. Why do we need super() in an extended class?
+
+Super is the glue that binds one class to another
 
 ## Project Set up
 
